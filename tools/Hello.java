@@ -12,6 +12,6 @@ public class Hello {
       .map(n -> n *2)
       .filter(n -> n != 8)
       .sorted()
-      .forEach(n -> System.out.println(n));
+      .forEach(System.out::println);
   }
 }
