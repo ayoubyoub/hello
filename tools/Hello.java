@@ -7,7 +7,7 @@ public class Hello {
 
   public static void main(String[] args) {
     List<Integer> nums = Arrays.asList(4, 5, 7, 2);
-    
+     
     nums
       .stream()
       .map(n -> n *2)
